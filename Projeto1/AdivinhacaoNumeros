@@ -39,6 +39,7 @@ void loop() {
       Serial.print(" e ");
       Serial.print(MAX_NUMERO - 1);
       Serial.println(".");
+
     } else if (palpite < numeroSecreto) {
       Serial.println("É maior!");
     } else if (palpite > numeroSecreto) {
